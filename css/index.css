@@ -16,6 +16,14 @@ th {
   border-collapse: collapse;
   padding: 5px;
 }
+.container {
+  background-color: gold;
+  width: 50%;
+  margin: auto;
+}
+.highlight {
+  background-color: yellow;
+}
 
 #coffee {
   width: 200px;
