@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "runescaperegular";
+  src: url("../fonts/runescape/runescape_bold-webfont.woff2") format("woff2"),
+    url("../fonts/runescape/runescape_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "runescape_smallregular";
+  src: url("../fonts/runescape/runescape_small-webfont.woff2") format("woff2"),
+    url("../fonts/runescape/runescape_small-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "runescaperegular";
+  src: url("../fonts/runescape/runescape-webfont.woff2") format("woff2"),
+    url("../fonts/runescape/runescape-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+nav {
+  background-color: #2c2a25;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  font-family: "runescaperegular";
+  background-color: #3e3529;
+  color: #ff981f;
+  margin: 0;
+  padding: 20px;
+}
+
+.greenHighlight {
+  color: #0dc10d;
+}
+.redHighlight {
+  color: #ff0000;
+}
+
 #logo {
   width: 100px;
   border-radius: 50%;
