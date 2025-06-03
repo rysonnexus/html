@@ -21,7 +21,7 @@
   font-weight: normal;
   font-style: normal;
 }
-nav {
+header {
   background-color: #2c2a25;
   padding: 10px;
   text-align: center;
@@ -34,6 +34,15 @@ body {
   padding: 20px;
 }
 
+#navList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#navList a {
+  text-decoration: none;
+  color: #ff981f;
+}
 .greenHighlight {
   color: #0dc10d;
 }
